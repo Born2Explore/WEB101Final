@@ -1,0 +1,283 @@
+header { text-align: center;
+        font-size: 12vh;
+        height: 95px;
+        text-align: center;
+        margin-top: 40px;
+        background-color: #FFFFFF;
+        opacity: 0.7;
+        width: 60%;
+        margin: auto; }
+
+.transparent { background-color: #fefbd8; opacity: 0.5; height: 100px; width: 50%; position: absolute; top: 60px; margin-left: 25%; z-index: 4; }
+
+
+.banner { background-image: url(bush.jpg);
+    border: 10px solid #80ced6;
+    height: 250px;
+    width: 98%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3em;
+    margin-top: 15px;
+    margin-bottom: 0; }
+
+.flower { background-image: url(flower.jpg);
+    border: 10px solid #80ced6;
+    height: 300px;
+    width: 98%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3em;
+    margin-top: 40px;
+    margin-bottom: 0; }
+
+.buildings {}
+
+.gallery { background-color: #fefbd8; }
+
+main { padding-top: 1px; padding-bottom: 20px; padding-left: 20px; display: block; background-color: #fefbd8; }
+
+body { background-color: #fefbd8; }
+
+p { font-size: 2.5vh; font-family: 'Bree Serif', serif; }
+
+nav { font-weight: bold; font-size: 40px; text-align: center; background-color: #618685; margin-bottom: 10px; padding-top: 10px; padding-bottom: 10px; width: 100%; }
+
+nav ul { list-style-type: none; margin: 0; }
+nav a:link { color: #d5f4e6; }
+nav a:visited { color: #d5f4e6; }
+nav a:hover { color: #d5f4e6; }
+
+nav a { text-decoration: none; }
+
+table { border: 2px solid #618685; border-collapse: collapse; background-color: #FFFFFF; }
+td, th { padding: 0.5em; border: 2px solid #3399CC; }
+td { text-align: center; }
+.text { text-align: left; }
+tr:nth-of-type(odd) { background-color: #d5f4e6; }
+
+/*
+Color scheme:
+#d5f4e6
+#80ced6
+#fefbd8
+#618685
+*/
+
+#gallery { position: relative; background-color: #fefbd8; height: 500px; }
+    
+figure { position: absolute; left: 280px; text-align: center; opacity: .25; }
+    
+#gallery ul { width: 300px; list-style-type: none; }
+    
+#gallery li { display: inline; float: left; padding: 10px; }
+    
+#gallery img { border-style: none; }
+    
+#gallery a { text-decoration: none; font-style: italic; font-size: 4vh; }
+    
+#gallery span { position: absolute; left: -1000px; opacity: 0; transition: opacity 3s ease-in-out; }
+#gallery a:hover span { position: absolute; top: 15px; left: 320px; text-align: center; opacity: 1; }
+
+
+/*This is the CSS code for the RVCSports page */
+
+.sports {}
+
+
+.RVCSport {width: 100%;
+            height: 2000px;}
+
+.building {background-image: url(PEC1.JPG);
+            background-repeat: no-repeat;
+            float: left;
+            background-position: left;     
+            background-size: contain; 
+            height: 500px; width: 45%;
+            margin-bottom: 30px;
+            }
+
+.buildingtext {float: right; 
+            font-size: 14pt;
+            height: 500px; width: 45%;
+            margin-bottom: 40px;}
+
+.court {background-image: url(court.jpg);
+        background-repeat: no-repeat;
+        float: left;
+        background-position: left;     
+       background-size: contain; 
+        height: 500px; width: 45%;
+        margin-bottom: 30px;}
+
+
+.courttext {float: right; 
+            font-size: 14pt;
+            height: 500px; width: 45%;
+            margin-bottom: 40px;}
+
+.gym {background-image: url(bluemat.JPG);
+        background-repeat: no-repeat;
+        float: left;
+        background-position: left;     
+        background-size: contain; 
+        height: 500px; width: 45%;
+        margin-bottom: 40px;}
+
+.gymtext {float: right; 
+            font-size: 14pt;
+            height: 500px; width: 45%;
+}
+
+
+h1 {text-align: center; 
+    font-size: 40px; height: 120px;  
+    padding-left: 3em; 
+    text-align: center; height: 90px; 
+    padding-top: 15px;
+    background-color: #618685;
+    color: #FFFFFF;
+    font-family: 'Bitter', serif; }
+
+/*This is the codde for the Student Center*/
+
+.StudentCenter {}
+
+.SC {background-image: url(SC.JPG);
+            background-repeat: no-repeat;
+            float: left;
+            background-position: left;     
+            background-size: contain; 
+            height: 500px; width: 45%;
+            margin-bottom: 30px;
+            }
+
+.SCtext {float: right; 
+            font-size: 14pt;
+            height: 500px; width: 45%;
+            margin-bottom: 40px;}
+
+.BS {background-image: url(bookstore.jpg);
+        background-repeat: no-repeat;
+        float: left;
+        background-position: left;     
+       background-size: contain; 
+        height: 500px; width: 45%;
+        margin-bottom: 30px;}
+
+
+.BStext {float: right; 
+            font-size: 14pt;
+            height: 500px; width: 45%;
+            margin-bottom: 40px;}
+
+.FB {background-image: url(fishbowl.NEF.jpg);
+        background-repeat: no-repeat;
+        float: left;
+        background-position: left;     
+        background-size: contain; 
+        height: 500px; width: 45%;
+        margin-bottom: 40px;}
+
+.FBtext {float: right; 
+            font-size: 14pt;
+            height: 500px; width: 45%;}
+
+
+
+
+@media only screen and (max-width: 64em) {
+    .building {
+            float: none; 
+            height: 100px; width: 45%;
+            margin-bottom: 30px;
+            background-size: cover;
+        background-position: center;
+            }
+
+.buildingtext {float: none;
+            font-size: 14pt;
+            height: 500px; width: 45%;
+            margin-bottom: 0px;}
+
+.court {background-image: url(court.jpg);
+        background-repeat: no-repeat;
+        float: left;
+        background-position: left;     
+       background-size: contain; 
+        height: 500px; width: 45%;
+        margin-bottom: 30px;}
+
+
+.courttext {float: right; 
+            font-size: 14pt;
+            height: 500px; width: 45%;
+            margin-bottom: 40px;}
+
+.gym {background-image: url(bluemat.JPG);
+        background-repeat: no-repeat;
+        float: left;
+        background-position: left;     
+        background-size: contain; 
+        height: 500px; width: 45%;
+        margin-bottom: 40px;}
+
+.gymtext {float: right; 
+            font-size: 14pt;
+            height: 500px; width: 45%;
+}
+    
+}
+
+@media only screen and (max-width: 37.5em) {
+    header { font-size: 7vh; height: 60px; }
+    nav { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; width: 100%; }
+    .banner { height: 150px; }
+    
+    h1 { text-align: left 
+    font-size: 10px; height: 200px;  
+    padding-left: 3em; 
+    text-align: center; height: 90px; 
+    padding-top: 15px;
+    background-color: #618685;
+    color: #FFFFFF;
+    font-family: 'Bitter', serif;}
+    
+    .building {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;
+            }
+
+.buildingtext {float: none;
+            font-size: 14pt;
+            height: 500px; width: 100%;
+            
+            }
+
+.court {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;}
+
+
+.courttext {float: none;
+            font-size: 14pt;
+            height: 500px; width: 100%;
+            margin-bottom: 0px; }
+
+.gym {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%; }
+
+.gymtext {float: none;
+            font-size: 14pt;
+            height: 500px; width: 100%;
+            margin-bottom: 0px;}
+    
+    gallery { }
+    
+}
