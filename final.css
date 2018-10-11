@@ -1,5 +1,6 @@
 header { text-align: center;
         font-size: 12vh;
+        font-family: 'Bitter', serif;
         height: 95px;
         text-align: center;
         margin-top: 40px;
@@ -189,45 +190,54 @@ h1 {text-align: center;
 
 
 @media only screen and (max-width: 64em) {
-    .building {
-            float: none; 
-            height: 100px; width: 45%;
-            margin-bottom: 30px;
-            background-size: cover;
-        background-position: center;
+    
+    header { height: 200px; }
+    
+    .building { float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;
             }
 
-.buildingtext {float: none;
-            font-size: 14pt;
-            height: 500px; width: 45%;
-            margin-bottom: 0px;}
+.buildingtext {display: none;}
 
-.court {background-image: url(court.jpg);
-        background-repeat: no-repeat;
-        float: left;
-        background-position: left;     
-       background-size: contain; 
-        height: 500px; width: 45%;
-        margin-bottom: 30px;}
+.court { float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;}
 
 
-.courttext {float: right; 
-            font-size: 14pt;
-            height: 500px; width: 45%;
-            margin-bottom: 40px;}
+.courttext {display: none;}
 
-.gym {background-image: url(bluemat.JPG);
-        background-repeat: no-repeat;
-        float: left;
-        background-position: left;     
-        background-size: contain; 
-        height: 500px; width: 45%;
-        margin-bottom: 40px;}
+.gym {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;}
 
-.gymtext {float: right; 
-            font-size: 14pt;
-            height: 500px; width: 45%;
-}
+.gymtext {display: none; }
+    
+    .SC {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;
+            }
+
+.SCtext {display: none;}
+
+.BS {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;}
+
+
+.BStext {display: none;}
+
+.FB {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;}
+
+.FBtext {display: none;}
     
 }
 
@@ -236,8 +246,17 @@ h1 {text-align: center;
     nav { margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; width: 100%; }
     .banner { height: 150px; }
     
-    h1 { text-align: left 
-    font-size: 10px; height: 200px;  
+    h1 { text-align: left; 
+    font-size: 40px; height: 400px;  
+    padding-left: 3em; 
+    text-align: center; height: 90px; 
+    padding-top: 15px;
+    background-color: #618685;
+    color: #FFFFFF;
+    font-family: 'Bitter', serif;}
+    
+    h2 { text-align: left 
+    font-size: 10px; height: 400px;  
     padding-left: 3em; 
     text-align: center; height: 90px; 
     padding-top: 15px;
@@ -251,10 +270,7 @@ h1 {text-align: center;
             height: 500px; width: 100%;
             }
 
-.buildingtext {float: none;
-            font-size: 14pt;
-            height: 500px; width: 100%;
-            
+.buildingtext {display: none;
             }
 
 .court {float: none; 
@@ -263,21 +279,46 @@ h1 {text-align: center;
             height: 500px; width: 100%;}
 
 
-.courttext {float: none;
-            font-size: 14pt;
-            height: 500px; width: 100%;
-            margin-bottom: 0px; }
+.courttext {display: none; }
 
 .gym {float: none; 
             height: auto; width: 100%;
             margin-bottom: 0px;
             height: 500px; width: 100%; }
 
-.gymtext {float: none;
-            font-size: 14pt;
+.gymtext {display: none;}
+    
+    .SC {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
             height: 500px; width: 100%;
-            margin-bottom: 0px;}
+            }
+
+.SCtext {display: none;}
+
+.BS {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;}
+
+
+.BStext {display: none;}
+
+.FB {float: none; 
+            height: auto; width: 100%;
+            margin-bottom: 0px;
+            height: 500px; width: 100%;}
+
+.FBtext {display: none;}
+    
+    header { height: 120px; }
+    
+    table { margin-left: 0; }
     
     gallery { }
     
+    nav { font-size: 30px; }
+    
 }
+
+footer { text-align: center; font-size: 30px; font-family: 'Bree Serif', serif; }
